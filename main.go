@@ -23,6 +23,7 @@ func main() {
     if err != nil {
         panic(err)
     }
+    log.Println("Stop now...")
 }
 
 func index(res http.ResponseWriter, req *http.Request) {
