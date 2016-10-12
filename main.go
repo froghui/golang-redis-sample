@@ -10,8 +10,8 @@ import (
 )
 
 func init() {
-    Config()
-    MustConnectRedis()
+//    Config()
+//    MustConnectRedis()
 }
 
 func main() {
